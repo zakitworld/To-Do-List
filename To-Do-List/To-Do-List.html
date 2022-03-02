@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="To-Do-Listt.css" />
+    <script src="To-Do-Listtt.js"></script>
+    <title>To-Do-List</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2 style="margin: 5px">To-Do-List</h2>
+        <input type="text" id="myInput" placeholder="Title..." />
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li class="checked">Go through FreeCodeCamp's CSS tutorials</li>
+        <li>Practise the codes</li>
+        <li>Read docs on CSS</li>
+        <li class="checked">Organise my notes</li>
+        <li>Create CSS projects</li>
+        <li>Take quiz</li>
+        <li>Comprehend interview questions</li>
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">
+      Clear Items
+    </button>
+
+    <script type="text/javascript" src="js\to do list.js"></script>
+</body>
+
+</html>
